@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: deeppink;
+}
+
+@font-face {
+  font-family: "Aeroport";
+  src: url("../fonts/Aeroport-Light.ttf") format("truetype");
+  font-style: Light;
+  font-weight: Light;
+}
+
+@font-face {
+    font-family: "Aeroport";
+    src: url("../fonts/Aeroport.ttf") format("truetype");
+    font-style: Normal;
+    font-weight: Normal;
+}
+@font-face {
+    font-family: "Aeroport";
+    src: url("../fonts/Aeroport-Bold.ttf") format("truetype");
+    font-style: Bold;
+    font-weight: Bold;
+}
+
+.up{
+    font-family: 'Aeroport-Light';
+    font-size: 5vw;
+    margin-left: 12.5%;
+    margin-top: 0%;
+    position: absolute;
+    color: white;
+}
+.up:hover{
+    color: blue;
+}
+.to{
+    font-family: 'Aeroport-Light';
+    font-size: 5vw;
+    margin-left: 37.5%;
+    margin-top: 0%;
+    position: absolute;
+    color: white;
+}
+.to:hover{
+    color: blue;
+}
+.the{
+    font-family: 'Aeroport-Light';
+    font-size: 5vw;
+    margin-left: 62.5%;margin-top: 0%;
+    position: absolute;
+    color: white;
+}
+.the:hover{
+    color: blue;
+    
+}
+.sky{
+    font-family: 'Aeroport-Light';
+    font-size: 5vw;
+    margin-left: 87.5%; margin-top: 0%;
+    position: absolute;
+    color: white;
+}
+.sky:hover{
+    color: blue;
+}
+
+.UP{
+    font-family: 'Aeroport-Black';
+    font-size: 15vw;
+    /* margin-left: 69.5%; */
+    margin-left: 69.5vw;
+    margin-top: 25vw;
+    position: absolute;
+    color: deeppink;
+    animation: move1 3s ease-out infinite;
+}
+
+@keyframes move1 {
+    0% {top: 30%;}
+    50%{ top: 60%;}
+    100% {top: 30%;}
+}
+
+#square > * {
+    width: 60%;
+    height: 545px; 
+    animation: square 3s linear infinite ;
+}
+
+@keyframes square{
+   0%{ background: url("../img/image\ 235.svg") 0% no-repeat; } 
+   100%{ background: url("../img/image\ 235.svg") 100% no-repeat; } 
+}
+
+.cover3{
+    /* width: 50%; */
+    width: 60%;
+}
+
+/* 2 блок */
+.block2{
+    display: flex;
+    margin-top: -12.2%;
+}
+.carpet{
+    /* width: 50%; */
+    width: 60%;
+}
+.green{
+    /* margin-left: 60%; */
+    margin-right: 0px;
+    width: 40%;
+    margin-top: -20%;
+    /* width: 512px; */
+    position: relative;
+}
+
+/* орнамент на ковре*/ 
+.pinksquares{ 
+    width: 354px; 
+    height: 354px;  
+    display: block; 
+    position: relative; 
+    background: url("../img/Group.svg"); 
+    animation: walk 1s steps(1) infinite; 
+} 
+@keyframes walk{ 
+    0%{background-position: 0px top;} 
+    25%{background-position: -354px top;} 
+    75%{background-position: -708px top;} 
+    100%{background-position: -1062px top;} 
+} 
+.path{ 
+    display: flex; 
+    margin-top: -55%; 
+    width: 20%; 
+    margin-left: 18%; 
+} 
+.pinksquares:hover{ 
+    animation-play-state: paused; 
+    background: url(../img/groupblue.svg); 
+}
+
+.little1{
+    /* width: 260px; */
+    height: 260px;
+    display: block;
+    position: relative;
+    background: url("../img/littlegroup_3.svg");
+    animation: walk2 1s steps(1) infinite;
+    display: flex;
+    margin-top: -40%;
+    width: 20%;
+    margin-left: 12.7%;
+}
+@keyframes walk2{
+    0%{background-position: 0px top;}
+    25%{background-position: -260px top;}
+    50%{background-position: -520px top;}
+    75%{background-position: -780px top;}
+}
+.little2{
+    width: 260px;
+    height: 260px;
+    display: block;
+    position: relative;
+    background: url("../img/littlegroup3.svg");
+    animation: walk2 1s steps(1) infinite;
+    display: flex;
+    margin-top: -17%;
+    width: 20%;
+    margin-left: 30%;
+}
+@keyframes walk2{
+    0%{background-position: 0px top;}
+    25%{background-position: -260px top;}
+    50%{background-position: -520px top;}
+    75%{background-position: -780px top;}
+}
+.little3{
+    width: 260px;
+    height: 260px;
+    display: block;
+    position: relative;
+    background: url("../img/littlegroup_3.svg");
+    animation: walk3 1s steps(1) infinite;
+    display: flex;
+    margin-top: 24%;
+    width: 20%;
+    margin-left: 12.7%;
+}
+@keyframes walk3{
+    0%{background-position: 0px top;}
+    25%{background-position: -260px top;}
+    50%{background-position: -520px top;}
+    75%{background-position: -780px top;}
+}
+.little4{
+    width: 260px;
+    height: 260px;
+    display: block;
+    position: relative;
+    background: url("../img/littlegroup3.svg");
+    animation: walk4 1s steps(1) infinite;
+    display: flex;
+    margin-top: -17%;
+    width: 20%;
+    margin-left: 30%;
+}
+@keyframes walk4{
+    0%{background-position: 0px top;}
+    25%{background-position: -260px top;}
+    50%{background-position: -520px top;}
+    75%{background-position: -780px top;}
+}
+.littleleft{
+    width: 354px;
+    height: 354px;
+    display: block;
+    position: relative;
+    background: url("../img/littlegroup.svg");
+    animation: walk5 1s steps(1) infinite;
+    display: flex;
+    margin-top: -42.5%;
+    width: 20%;
+    margin-left: -3.5%;
+}
+@keyframes walk5{
+    0%{background-position: 0px top;}
+    11%{background-position: -354px top;}
+    22%{background-position: -708px top;}
+    33%{background-position: -1062px top;}
+    44%{background-position: -1416px top;}
+    55%{background-position: -1770px top;}
+    66%{background-position: -2124px top;}
+    77%{background-position: -2478px top;}
+    88%{background-position: -2832px top;}
+}
+.littleright{
+    width: 354px;
+    height: 354px;
+    display: block;
+    position: relative;
+    background: url("../img/littlegroup2.svg");
+    animation: walk5 1s steps(1) infinite;
+    display: flex;
+    margin-top: -23%;
+    width: 20%;
+    margin-left: 40.4%;
+}
+@keyframes walk5{
+    0%{background-position: 0px top;}
+    11%{background-position: -354px top;}
+    22%{background-position: -708px top;}
+    33%{background-position: -1062px top;}
+    44%{background-position: -1416px top;}
+    55%{background-position: -1770px top;}
+    66%{background-position: -2124px top;}
+    77%{background-position: -2478px top;}
+    88%{background-position: -2832px top;}
+}
+.littlepink:hover{
+    animation-play-state: paused;
+}
+
+.sky2 > * {
+    width: 40%;
+    animation: square 3s linear infinite ;
+    margin-left: 60%;
+    margin-top: -10.35%;
+}
+
+@keyframes square{
+   0%{ background: url("../img/image\ 235.svg") 0% no-repeat; } 
+   100%{ background: url("../img/image\ 235.svg") 100% no-repeat; } 
+}
+
+/* бегущая строка */
+.line{
+    display: block;
+    width: 100%;
+    background-color: #C7FF51;
+    overflow: hidden;
+    margin-top: 20%;
+}
+.text{
+    font-family: "Aeroport-Bold";
+    font-weight: bold;
+    font-size: 80px;
+    color: #ff00bf;
+    animation: tostars 2s linear infinite;
+    white-space: nowrap;
+}
+.text:hover{
+    animation-play-state: paused;
+    color: #162cf4;
+}
+@keyframes tostars{
+    0% {transform: translateX(-1091px)}
+    100% {transform: translateX(0)}
+}
+
+/* 3 блок: плетение */
+.block3{
+    display: flex;
+    position: relative;
+    margin-top: -30%;
+    /* margin-top: -12.2%; */
+}
+.ornament{
+    position: absolute;
+    animation: ornament 5s steps(1) infinite;
+    background: url("../img/ornament.svg");
+    width: 71.4%;
+    height: 90%;
+}
+@keyframes ornament{
+    0%{background-position: 0px top; } 
+    14%{background-position: -1080px top;} 
+    28%{background-position: -2160px top;} 
+    42%{background-position: -3240px top;} 
+    56%{background-position: -4320px top;} 
+    70%{background-position: -5400px top;} 
+    90%{background-position: -6480px top;}
+    100%{background-position: -7560px top;}
+}
+.ornament:hover{
+    animation-play-state: paused;
+    background: url("../img/ornament_2.svg");
+    width: 71.4%;
+    height: 90%;
+}
+
+.carpet2{
+    position: absolute;
+    animation: move 3s ease-out infinite;
+    width: 60%;
+}
+
+@keyframes move {
+    0% {left: 30%;}
+    50%{ left: 60%;}
+    100% {left: 30%;}
+}
+
+.prikol1{
+    width: 100%;
+    height: 90%;
+    display: block;
+    position: relative;
+    background: url("../img/какой-то\ прикол\ а\ не\ группа.svg");
+    animation: prikol 1s steps(1) infinite;
+    display: flex;
+    margin-top: 50%;
+}
+@keyframes prikol{ 
+    0%{background-position: 0px top;} 
+    11%{background-position: -298px top;} 
+    22%{background-position: -600px top;} 
+    33%{background-position: -900px top;} 
+    44%{background-position: -1200px top;} 
+    55%{background-position: -1500px top;} 
+    66%{background-position: -1800px top;} 
+    77%{background-position: -2100px top;} 
+    88%{background-position: -2400px top;} 
+} 
+
+.prikol1:active{
+    animation-play-state: paused;
+    background: url(../img/какой-то\ прикол\ а\ не\ группа2.svg);
+}
+
+.hi{
+    font-family: 'Aeroport-Light';
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-top: 0%;
+    position: absolute;
+    color: white;
+}
+.hi:hover{
+    color:#C7FF51;
+}
+.hii{
+    font-family: 'Aeroport-Light';
+    font-size: 5vw;
+    margin-left: 70%;
+    margin-right: 5%;
+    margin-top: 0%;
+    position: absolute;
+    color: white;
+}
+.hii:hover{
+    color: #C7FF51;
+}

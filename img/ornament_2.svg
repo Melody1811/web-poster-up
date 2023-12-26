@@ -1,0 +1,33 @@
+<svg width="1080" height="781" viewBox="0 0 1080 781" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_164_2255)">
+<rect x="1080" y="602" width="114" height="1080" transform="rotate(90 1080 602)" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="1080" y="423" width="114" height="1080" transform="rotate(90 1080 423)" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="1080" y="244" width="114" height="1080" transform="rotate(90 1080 244)" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="1080" y="65" width="114" height="1080" transform="rotate(90 1080 65)" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="50" width="105" height="781" fill="#FB95D2"/>
+<rect x="225" width="105" height="781" fill="#FB95D2"/>
+<rect x="400" width="105" height="781" fill="#FB95D2"/>
+<rect x="575" width="105" height="781" fill="#FB95D2"/>
+<rect x="750" y="-1" width="105" height="781" fill="#FB95D2"/>
+<rect x="925" y="-1" width="105" height="781" fill="#FB95D2"/>
+<rect x="-195" y="65" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="-20" y="244" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="155" y="423" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="330" y="602" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="680" y="602" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="155" y="65" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="-195" y="423" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="-20" y="602" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="330" y="244" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="505" y="65" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="505" y="423" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="680" y="244" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="855" y="423" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+<rect x="855" y="65" width="245" height="114" fill="#040EF0" fill-opacity="0.988542"/>
+</g>
+<defs>
+<clipPath id="clip0_164_2255">
+<rect width="780.546" height="1080" fill="white" transform="translate(1080) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,103 @@
+@media  screen and (min-width: 1224px) {
+  /* Desktop */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+   .carpet2{
+      position: absolute;
+      margin-top: -95%;
+      width: 20%;
+   }
+   .path{
+    position: absolute;
+    width: -90%;
+   }
+
+   .little1, .little2, .littleleft, .littleright{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+   }
+
+
+   /* .path{
+    position: absolute;
+    width: -200%;
+   }
+   .pinksquares{
+    width: 10px;
+    height: 10px;
+    display: block; 
+    position: absolute; 
+   }
+   .little1{
+    width: 10px;
+    height: 10px;
+   }
+   .littlepink{
+    width: 30px;
+   }
+   .littleleft{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    width: -20%;
+    background-size: 20%;
+   }
+   .ornament{
+    position: absolute;
+    margin-top: 1%;
+    background-size: 20%;
+    width: 10%;
+    height: 30%;
+   } */
+
+   /* .UP{
+      margin-left: 60%;
+      margin-top: -100%;
+      position: absolute;
+   } */
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+ 
+}
+  
+
+
+@media all and (min-width: 1260px) {
+
+}
+
+@media all  and (min-width: 768px) and (max-width:1259px) {
+
+}
+
+@media all and (max-width: 767px){
+.pinksquares{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+}
